@@ -1,0 +1,54 @@
+[
+  {
+    "question": "What is SleepEasy?",
+    "answer": "SleepEasy helps you to track your sleep for better health."
+  },
+  {
+    "question": "What are the main features of the SleepEasy?",
+    "answer": "Sleep reminder notification, Auto mode #{beta_text:(Beta)} and manual mode are the main features of SleepEasy"
+  },
+  {
+    "question": "What is 'Sleep reminder notification' feature?",
+    "answer": "Get a notification daily at a preferred time reminding you to get ready for sleep. You can start (and complete) the entire sleep tracking process right from the notification without even opening the app, thus saving your precious time."
+  },
+  {
+    "question": "How to start the tracking from the Sleep reminder notification?",
+    "answer": "#{bold:Swipe--down} the notification to reveal the actions. Click on the 'Sleep Easy' action to start tracking from notification. By default, lockscreen notification of Android is hidden and it can be revealed by #{bold:swiping--down}"
+  },
+  {
+    "question": "How to track with 'Manual mode'?",
+    "answer": "This is the default mode of SleepEasy (Auto mode is turned off by default). When you are ready for sleep, you can open the app and click 'Sleep Easy' button. Alternatively, if you have configured sleep reminder notification you can also click the 'Sleep Easy' action of the notification. This will start the sleep tracking process and you will be shown a notification indicating ongoing tracking. Once you are awake, you can click 'I'm Awake' in the notification (or from inside the app) to indicate that you are awake. Then, your sleep history details will be saved."
+  },
+  {
+    "question": "What is 'Auto mode'?",
+    "answer": "Auto mode #{beta_text:(Beta)} watches for your phone movement to determine whether you are awake. If Auto mode is turned on, you will have a pre-defined duration (sleep settle duration) to settle down to sleep. The default duration is 15 minutes. After this duration, if your phone is moved you are considered awake and your sleep history is logged."
+  },
+  {
+    "question": "Why is 'Auto mode' featured as #{beta_text:Beta} ?",
+    "answer": "This feature is tested in limited number of actual android devices. After getting enough feedback from the users this feature may be moved out of #{beta_text:Beta} . Please let us know your feedback regarding this feature to help improve the app."
+  },
+  {
+    "question": "What is the use of #{icon:bell-sleep} on the top?",
+    "answer": "It immediately shows the sleep reminder notification on clicking it. It is useful when occasionally you want to go to sleep at a different time. You can press this icon, get the sleep reminder notification, close the app and when ready for sleep you can start the sleep tracking from the notification. This is more of a power user feature which you will find helpful after using the app for a long time."
+  },
+  {
+    "question": "What do the different colored icons alongside sleep history mean?",
+    "answer": "The icons visually try to indicate the quality of your sleep. #{color_icon:emoticon-sad||#FF6262} is shown when your sleep is between 4 - 6 hours. #{color_icon:emoticon-neutral||#FFCF6E} is shown when your sleep is between 6 - 8 hours. #{color_icon:emoticon||#52D452} is shown when your sleep is between 8 - 12 hours."
+  },
+  {
+    "question": "Is this a #{bold:offline} only app?",
+    "answer": "#{bold:Yes.} Sleep Easy is (and always will be) an #{bold:offline} only and #{bold:Ad-Free} app."
+  },
+  {
+    "question": "Is it possible for me to save my sleep data for my own reference?",
+    "answer": "In near future, Sleep Easy will have some pro features like ability to easily save your own sleep data to your own storage space like Google Drive/Dropbox etc. Sleep Easy main idea is that you should own your sleep data."
+  },
+  {
+    "question": "I like this app. How can I support this app?",
+    "answer": "For now you can support by giving #{bold:feedback} and #{bold:sharing} this app to your friends and family. In near future, there will be some pro features like ability to easily upload your sleep data to your own storage, analytical tools (in both web and mobile) to get insights from your sleep patterns etc. You can purchase the pro version in the future and support the app."
+  },
+  {
+    "question": "How to give feedback regarding this app?",
+    "answer": "You can give feedback through the #{bold:app--store} , or by taking the #{bold:survey} mentioned in the feedback section or by just directly mailing me at #{bold:arun@sleepeasyapp.com} "
+  }
+]

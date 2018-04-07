@@ -1,0 +1,191 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+html, body {
+	background-color: #333 !important;
+	color: #DEDEDE !important;
+}
+
+a.feedback-link {
+	color: #C86BE6 !important;
+}
+
+.brand-logo {
+
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    /*left: 47% !important;*/
+    width: 65% !important;
+    text-align: center !important;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+.brand-logo img {
+	vertical-align: text-top;
+	margin: auto 7px;
+}
+
+.index-banner {
+	margin: 2.9em 0;
+}
+
+.bottom-border {
+	border-bottom: thin solid #444 !important;
+	padding-bottom: 29px; 
+	margin-bottom: 29px
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.navigation-header {
+	background-color: #B12CDB !important;
+}
+
+.sleep-easy-blue {
+	background-color: #B12CDB !important;
+	color: white !important;
+}
+
+.sleep-easy-blue-text {
+	color: #B12CDB !important;
+}
+
+.info-header {
+	margin-top: 29px;
+	height: 475px;
+	justify-content: center;
+}
+
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-xlarge {
+	font-size: 1.3rem;
+	height: 75px;
+	line-height: 75px;
+	margin-top: 29px;
+}
+
+/* START: slider styles; */
+
+.indicator-item {
+	background-color: #555 !important;
+}
+
+.indicator-item.active {
+	background-color: #B12CDB !important;
+}
+
+.slider {
+	margin-top: 29px !important;
+	border: thin solid #444 !important;
+}
+
+.slider .slides {
+	background-color: #444 !important;
+}
+
+/* END: slider styles; */
+
+.header-text {
+	margin: 39px 0;
+}
+
+.title-text {
+	color: #DEDEDE !important;
+	font-size: 29px
+}
+
+.subtitle-text {
+	color: #ABABAB !important;
+	font-size: 23px;
+}
+
+.help-icon {
+	margin: 5px;
+	vertical-align: middle;
+	font-size: 29px;
+}
+
+.help-info {
+	background-color: #444 !important;
+	color: #DEDEDE !important;
+}
+
+.help-question {
+	color: #DEDEDE !important;
+}
+
+.help-answer {
+	color: #CDCDCD !important;
+}
+
+.beta-text {
+	color: #FFC773;
+}
+
+.bold-text {
+	font-weight: bold;
+	font-size: 23px;
+}
+
+.answer {
+	font-size: 16px;
+	line-height: 1.7em;
+}
+
+.content {
+	font-size: 16px;
+	line-height: 1.7em;
+}
+
+.connect-link img {
+	vertical-align: bottom;
+} 
+
+/* label color */
+/* label focus color */
+.input-field input[type=email]:focus + label {
+	color: #B12CDB !important;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+	border-bottom: 1px solid #B12CDB !important;
+	box-shadow: 0 1px 0 0 #B12CDB !important;
+}
+/* valid color */
+.input-field input[type=email].valid {
+	border-bottom: 1px solid #B12CDB !important;
+	box-shadow: 0 1px 0 0 #B12CDB !important;
+}
+/* invalid color */
+.input-field input[type=email].invalid {
+	border-bottom: 1px solid #B12CDB !important;
+	box-shadow: 0 1px 0 0 #B12CDB !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+	color: #B12CDB !important;
+}
+
+/*.input-field label.active {
+	color: #B12CDB !important;
+}*/
